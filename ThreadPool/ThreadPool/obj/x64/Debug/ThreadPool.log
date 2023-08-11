@@ -1,0 +1,17 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.161.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\c++\ThreadPool\ThreadPool\ThreadPool.cpp(158,43): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\ThreadPool\ThreadPool\ThreadPool.cpp(158,43): warning :    int queueSize = pool->taskQ->taskNumber();
+D:\c++\ThreadPool\ThreadPool\ThreadPool.cpp(158,43): warning :                                            ^
+D:\c++\ThreadPool\ThreadPool\ThreadPool.cpp(197,2): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\c++\ThreadPool\ThreadPool\ThreadPool.cpp(197,2): warning :   for (int i = 0; i = maxNum; ++i)
+D:\c++\ThreadPool\ThreadPool\ThreadPool.cpp(197,2): warning :   ^
+  TaskQueue.cpp
+  ThreadPool.cpp
+  正在链接对象
+  ThreadPool.vcxproj -> D:\c++\ThreadPool\ThreadPool\bin\x64\Debug\ThreadPool.out
